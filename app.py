@@ -4,6 +4,7 @@ def saludar(nombre):
     """Función simple para saludar"""
     mensaje = f"¡Hola {nombre}! Bienvenido a mi aplicación"
     print(mensaje)
+    print("Eres el visitante número 1")  # Nueva línea de contador
     return mensaje
 
 def main():
