@@ -15,18 +15,22 @@ def calcular_resultado(a, b):
     Returns:
         int: Resultado de la operación
     """
-    # Esta línea será modificada en diferentes ramas
-    resultado = a + b
-    print(f"Calculando: {a} + {b} = {resultado}")
+    # RAMA FEATURE-CALCULADORA-AVANZADA: Implementación con multiplicación y validación
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise ValueError("Los parámetros deben ser números")
+    
+    resultado = a * b  # Cambio a multiplicación
+    print(f"Calculando (multiplicación avanzada): {a} * {b} = {resultado}")
     return resultado
 
 def mostrar_mensaje():
     """
     Función que mostrará diferentes mensajes según la rama.
     """
-    # Este mensaje será diferente en cada rama
-    mensaje = "Versión inicial del proyecto"
+    # RAMA FEATURE-CALCULADORA-AVANZADA: Mensaje específico para calculadora avanzada
+    mensaje = "Calculadora Avanzada v2.0 - Con funciones matemáticas extendidas"
     print(f"Estado: {mensaje}")
+    print("Características: Multiplicación, validación de tipos, manejo de errores")
 
 def configurar_aplicacion():
     """
@@ -41,9 +45,9 @@ def configurar_aplicacion():
 if __name__ == "__main__":
     print("=== Demostración de Conflictos de Merge ===")
     
-    # Estas líneas también serán modificadas
-    num1 = 10
-    num2 = 20
+    # RAMA FEATURE-CALCULADORA-AVANZADA: Números más grandes para pruebas
+    num1 = 25
+    num2 = 30
     
     resultado = calcular_resultado(num1, num2)
     mostrar_mensaje()

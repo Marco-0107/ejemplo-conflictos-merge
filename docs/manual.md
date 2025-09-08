@@ -1,8 +1,16 @@
-# Manual de Usuario - Proyecto Demo Conflictos Merge
+# Manual de Usuario - Calculadora Avanzada Pro
 
 ## Introducción
 
-Este manual describe cómo usar el proyecto de demostración para conflictos de merge en GitHub.
+Este manual describe cómo usar la Calculadora Avanzada Pro, una aplicación profesional para cálculos matemáticos complejos.
+
+## Nueva Funcionalidad - Calculadora Avanzada
+
+La aplicación ahora incluye:
+- Multiplicación avanzada con validación
+- Manejo robusto de errores
+- Soporte para números decimales
+- Interfaz mejorada
 
 ## Instalación
 

@@ -1,14 +1,15 @@
 {
   "aplicacion": {
-    "nombre": "Demo Conflictos Merge",
-    "version": "1.0.0",
-    "descripcion": "Proyecto para demostrar conflictos de merge"
+    "nombre": "Calculadora Avanzada Pro",
+    "version": "2.0.0",
+    "descripcion": "Calculadora profesional con funciones matemáticas avanzadas"
   },
   "configuracion": {
-    "debug": false,
-    "puerto": 8080,
-    "host": "localhost",
-    "timeout": 30
+    "debug": true,
+    "puerto": 9090,
+    "host": "0.0.0.0",
+    "timeout": 60,
+    "max_operaciones": 1000
   },
   "base_datos": {
     "tipo": "sqlite",
