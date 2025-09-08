@@ -1,0 +1,28 @@
+{
+  "aplicacion": {
+    "nombre": "Demo Conflictos Merge",
+    "version": "1.0.0",
+    "descripcion": "Proyecto para demostrar conflictos de merge"
+  },
+  "configuracion": {
+    "debug": false,
+    "puerto": 8080,
+    "host": "localhost",
+    "timeout": 30
+  },
+  "base_datos": {
+    "tipo": "sqlite",
+    "archivo": "demo.db",
+    "auto_backup": true
+  },
+  "logging": {
+    "nivel": "INFO",
+    "archivo": "app.log",
+    "formato": "%(asctime)s - %(levelname)s - %(message)s"
+  },
+  "caracteristicas": {
+    "cache_habilitado": true,
+    "compresion": false,
+    "ssl": false
+  }
+}

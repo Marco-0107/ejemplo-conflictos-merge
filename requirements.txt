@@ -1,0 +1,22 @@
+# Dependencias para el proyecto de demostración de conflictos de merge
+
+# Librerías básicas
+requests>=2.31.0
+python-dateutil>=2.8.2
+
+# Para manejo de JSON y configuraciones
+pyyaml>=6.0
+
+# Para logging avanzado
+colorlog>=6.7.0
+
+# Para validación de datos
+jsonschema>=4.19.0
+
+# Herramientas de desarrollo
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.0.0
+
+# Para documentación
+markdown>=3.4.4
